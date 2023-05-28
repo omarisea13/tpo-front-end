@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactanos.css">
+    <title>Fitland</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1><a href="../index.html" class="logo"><img src="/images/logo.png" width="100" alt="Home button with store logo"></a></h1>
+            <ul class="nav-links">
+                <li><a href="../pages/conocenos.html" class="ctn">Conocenos</a></li>
+                <li><a href="../pages/productos.html" class="ctn">Colección</a></li>
+                <li><a href="contactanos.html" class="ctn">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Contáctanos</h1>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message" id="name-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="email-error"></span>
+            </div>
+            <div class="form-group">
+                <label for="message">Consulta</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <span class="error-message" id="message-error"></span>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <h2>Weather Information</h2>
+    <div class="weather-container">
+        <div class="weather-data">
+            <h3 class="city-name"></h3>
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+    </div>
+    <section class="footer">
+        <p>2800 Mendoza, CABA - ARG | Telefono 11 4682 1893</p>
+        <p>Copyright 2023 © Fitland</p>
+    </section>
+    <script src="js.js"></script>
+</body>
+
+</html>
