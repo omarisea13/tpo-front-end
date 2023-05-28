@@ -74,7 +74,20 @@ header {
   margin: 0 20px;
 }
 
+.footer-links{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
 .ctn {
+  padding: 10px 5px;
+  background: #b3adb3;
+  border-radius: 30px;
+  color: rgb(31, 30, 30);
+}
+
+.ctnl {
   padding: 10px 5px;
   background: #b3adb3;
   border-radius: 30px;
